@@ -8,6 +8,7 @@ export default function Home() {
             Camelyon
           </span>
           <div className="hidden items-center gap-8 md:flex">
+            <a href="/product" className="text-sm text-muted hover:text-foreground transition-colors">Product</a>
             <a href="#features" className="text-sm text-muted hover:text-foreground transition-colors">Features</a>
             <a href="#how-it-works" className="text-sm text-muted hover:text-foreground transition-colors">How It Works</a>
             <a href="#pricing" className="text-sm text-muted hover:text-foreground transition-colors">Pricing</a>
@@ -347,8 +348,9 @@ export default function Home() {
           <div className="flex gap-8 text-sm text-muted">
             <a href="#features" className="hover:text-foreground transition-colors">Features</a>
             <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
+            <a href="/contact" className="hover:text-foreground transition-colors">Contact</a>
+            <a href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy</a>
+            <a href="/terms" className="hover:text-foreground transition-colors">Terms</a>
           </div>
           <p className="text-sm text-muted">
             &copy; 2026 Camelyon Inc. All rights reserved.
