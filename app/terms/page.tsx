@@ -284,8 +284,8 @@ export default function Terms() {
               Camelyon Inc.
               <br />
               Email:{" "}
-              <a href="mailto:legal@camelyon.com" className="text-primary underline">
-                legal@camelyon.com
+              <a href="mailto:legal@camelyon.ai" className="text-primary underline">
+                legal@camelyon.ai
               </a>
             </p>
           </section>

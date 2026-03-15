@@ -41,8 +41,8 @@ export default function Contact() {
               </svg>
             </div>
             <h3 className="font-semibold">General Inquiries</h3>
-            <a href="mailto:hello@camelyon.com" className="mt-2 block text-sm text-primary underline">
-              hello@camelyon.com
+            <a href="mailto:hello@camelyon.ai" className="mt-2 block text-sm text-primary underline">
+              hello@camelyon.ai
             </a>
           </div>
 
@@ -53,8 +53,8 @@ export default function Contact() {
               </svg>
             </div>
             <h3 className="font-semibold">Sales</h3>
-            <a href="mailto:sales@camelyon.com" className="mt-2 block text-sm text-primary underline">
-              sales@camelyon.com
+            <a href="mailto:sales@camelyon.ai" className="mt-2 block text-sm text-primary underline">
+              sales@camelyon.ai
             </a>
           </div>
 
@@ -65,8 +65,8 @@ export default function Contact() {
               </svg>
             </div>
             <h3 className="font-semibold">Support</h3>
-            <a href="mailto:support@camelyon.com" className="mt-2 block text-sm text-primary underline">
-              support@camelyon.com
+            <a href="mailto:support@camelyon.ai" className="mt-2 block text-sm text-primary underline">
+              support@camelyon.ai
             </a>
           </div>
         </div>
@@ -74,13 +74,13 @@ export default function Contact() {
         <div className="mt-16 rounded-2xl border border-border bg-surface p-8 text-center">
           <h2 className="text-xl font-semibold">Camelyon Inc.</h2>
           <div className="mt-4 space-y-1 text-sm text-muted">
-            <p>651 N Broad St, Suite 201</p>
-            <p>Middletown, DE 19709</p>
+            <p>1182 ARLINGTON LN</p>
+            <p>SAN JOSE, CA 95129</p>
             <p>United States</p>
           </div>
           <div className="mt-4 text-sm text-muted">
-            <a href="mailto:hello@camelyon.com" className="text-primary underline">
-              hello@camelyon.com
+            <a href="mailto:hello@camelyon.ai" className="text-primary underline">
+              hello@camelyon.ai
             </a>
           </div>
         </div>

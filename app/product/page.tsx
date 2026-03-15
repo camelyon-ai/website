@@ -418,7 +418,7 @@ export default function Product() {
                 Add to Chrome — Free
               </a>
               <a
-                href="mailto:sales@camelyon.com"
+                href="mailto:sales@camelyon.ai"
                 className="rounded-full border border-white/30 px-8 py-3 text-base font-medium text-white transition-colors hover:bg-white/10"
               >
                 Contact Sales

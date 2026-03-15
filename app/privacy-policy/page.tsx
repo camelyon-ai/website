@@ -184,8 +184,8 @@ export default function PrivacyPolicy() {
             </ul>
             <p className="mt-3">
               To exercise any of these rights, please contact us at{" "}
-              <a href="mailto:privacy@camelyon.com" className="text-primary underline">
-                privacy@camelyon.com
+              <a href="mailto:privacy@camelyon.ai" className="text-primary underline">
+                privacy@camelyon.ai
               </a>
               . We will respond within 30 days.
             </p>
@@ -223,8 +223,8 @@ export default function PrivacyPolicy() {
               Camelyon Inc.
               <br />
               Email:{" "}
-              <a href="mailto:privacy@camelyon.com" className="text-primary underline">
-                privacy@camelyon.com
+              <a href="mailto:privacy@camelyon.ai" className="text-primary underline">
+                privacy@camelyon.ai
               </a>
             </p>
           </section>
