@@ -1,8 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Setting up nvm
+
+nvm install 25.8.2
+nvm use 25.8.2
+
+25.8.2 is the version being used in testing
+
+npm install next-auth@beta
+* Should add this to package.json in the future
+
 ## Getting Started
 
 First, run the development server:
+
+If using Vscode, run the command in command prompt, not powershell
 
 ```bash
 npm run dev

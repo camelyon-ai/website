@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className="min-h-screen font-sans">
@@ -13,12 +15,15 @@ export default function Home() {
             <a href="#how-it-works" className="text-sm text-muted hover:text-foreground transition-colors">How It Works</a>
             <a href="#pricing" className="text-sm text-muted hover:text-foreground transition-colors">Pricing</a>
           </div>
-          <a
-            href="#cta"
-            className="rounded-full bg-primary px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-dark"
-          >
+          <div className="flex items-center gap-3">
+            <a
+              href="#cta"
+              className="rounded-full bg-primary px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-dark"
+            >
             Get Started
-          </a>
+            </a>
+            <Link href="/login">Log in</Link>
+          </div>
         </div>
       </nav>
 
