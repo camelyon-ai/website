@@ -5,10 +5,12 @@ export async function PATCH(req: NextRequest) {
   const body = await req.json();
   const { id, ...rest } = body;
   const field = Object.keys(rest)[0];
+  console.log(field)
   const value = rest[field];
 
-  const editableFields = ["name", "email", "token"];
+  const editableFields = ["full_name"];
   if (!editableFields.includes(field)) {
+    console.log("not editable field")
     return NextResponse.json({ error: "Field not editable" }, { status: 400 });
   }
 
