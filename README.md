@@ -10,6 +10,12 @@ nvm use 25.8.2
 npm install next-auth@beta
 * Should add this to package.json in the future
 
+# For DB connection
+
+npm install pg
+npm install -D @types/pg
+* May also consider using prisma instead of pg
+
 ## Getting Started
 
 First, run the development server:

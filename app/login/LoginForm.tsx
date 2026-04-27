@@ -24,11 +24,11 @@ export default function LoginForm() {
       })
 
       if (res.ok) {
-        console.log("res_ok")
+        const data = await res.json();
+        document.cookie = `session_token=${data.session_token}; path=/`;
         router.push("/profile")
       } else {
         const data = await res.json()
-        console.log("status:", res.status, "data:", data) // add this
         setError(data.error || 'Invalid email or password')
       }
     } catch (err) {
