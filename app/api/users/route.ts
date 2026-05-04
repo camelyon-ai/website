@@ -5,7 +5,6 @@ export async function PATCH(req: NextRequest) {
   const body = await req.json();
   const { id, ...rest } = body;
   const field = Object.keys(rest)[0];
-  console.log(field)
   const value = rest[field];
 
   const editableFields = ["full_name"];
